@@ -17,7 +17,7 @@ var	intruAd = (function() {
 			"link": "#"
 		},
 		{
-			"image": "images/banner-adverts/Bitcarve.png",
+			"image": "images/banner-adverts/BitCarve.png",
 			"link": "#"
 		},
 		{
