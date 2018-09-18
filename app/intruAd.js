@@ -9,7 +9,7 @@ var	intruAd = (function() {
 
 	var	ads = [
 		{
-			"image": "images/banner-adverts/TastyBits.png",
+			"image": "images/banner-adverts/Tastybits.png",
 			"link": "#"
 		},
 		{
