@@ -1,0 +1,49 @@
+/**********************************************************
+ * content.css
+ *
+ * M. Nealon, 2018.
+ */
+ 
+
+#content						{
+	position:					absolute;
+	
+	margin:						24px 0px 0px 0px;
+	
+	z-index:					300;
+	
+	top:						64px;
+	bottom:						64px;
+	
+	color:						#000;
+	background:					none;
+	
+	overflow-y:					auto;
+}
+
+	#content-bloglist				{
+		width:						100%;
+		height:						auto;
+		
+		background:					none;
+	}
+	
+	#content-blog					{
+		width:						100%;
+		height:						auto;
+		
+		padding:					6px;
+		
+		background:					#FFF;
+	}
+	
+	#content-items					{
+		display:					none;
+		
+		width:						20%;
+		height:						auto;
+		
+		background:					none;
+	}
+	
+	

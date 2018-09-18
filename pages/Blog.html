@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	</head>
+	<body>
+		
+		<div id="blog-menu">
+		</div>
+		
+		<div id="blog-post">
+		</div>
+	
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var	urlParams = new parseURL();
+				var	params = urlParams.getParams();
+
+				var	page = jsBlogger.search(params);
+				
+				if (! page) {
+					console.log("Blogger returned false");
+				}
+				
+				showYears(jsBlogger.getAll(), urlParams.getDomain());
+				
+				if (typeof(page[0]) !== "undefined" && page[0].hasOwnProperty("month")) {
+					showMonths(page, urlParams.getDomain(), params[1]);
+				}
+				else if (typeof(page[0]) !== "undefined" && page[0].hasOwnProperty("date")) {				
+					showMonths(jsBlogger.listAllMonths(params[1]), urlParams.getDomain(), params[1]);
+					showPosts(page, urlParams.getDomain(), params[1], params[2]);
+				}
+				else {
+					if (page.hasOwnProperty("title")) {
+						showBlogHeader(params[1], params[2], params[3], page, urlParams.getDomain());
+						$("#blog-post").load(page.page);
+					}
+				}
+			});
+		</script>
+	</body>
+</html>
+

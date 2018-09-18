@@ -1,0 +1,44 @@
+/**********************************************************
+ * navbar.css
+ *
+ * M. Nealon, 2018.
+ */
+
+
+#navbar							{
+	float:						right;
+	
+	z-index:					200;
+	height:						32px;
+	
+	width:						100%;
+	
+	color:						#FFF;
+}
+
+	.navbar-link					{
+		position:					relative;
+		float:						left;
+		
+		margin-top:					8px;
+		width:						25%;
+		height:						24px;
+		
+		box-sizing:					border-box;
+		border:						none;
+		
+		text-align:					center;
+		line-height:				20px;
+		
+		font-size:					14px;
+		font-weight:				bold;
+		
+		color:						#FF8C00;
+		background:					none;
+		
+		cursor:						pointer;
+		
+		text-shadow:				1px 1px 0px #000;
+	}
+	
+	

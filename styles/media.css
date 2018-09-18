@@ -1,0 +1,158 @@
+/**********************************************************
+ * media.css
+ *
+ * M. Nealon, 2018.
+ */
+
+
+@media (min-width: 320px)		{
+	#inner						{
+		left:					1%;
+		width:					98%;
+	}
+}
+ 
+
+@media (min-width: 576px)		{
+	#inner						{
+		left:					2.5%;
+		width:					95%;
+	}
+	
+	p	{ font-size: 14px; line-height: 20px; }
+	
+	.email-text,
+	.quote
+	{
+		font-size:				12px;
+	}
+	
+	#header						{
+		width:					40%;
+	}
+	
+		.header-title				{
+			width:					80%;
+		}
+			
+		.sponsored-item-el			{
+			margin-bottom:			6px;
+			width:					100%;
+		}
+		
+		.sponsored-item-info		{
+			font-size:				11px;
+		}
+		
+	
+	#navbar						{
+		width:					60%;
+	}
+	
+		.navbar-link				{
+			margin-top:				0px;
+			
+			height:					32px;
+			line-height:			28px;
+			
+			font-size:				14px;
+		}
+		
+	
+	#content					{
+		top:					32px;
+		bottom:					80px;
+	}
+	
+		#content-bloglist			{
+			width:					40%;
+		}
+		
+		#content-blog				{
+			width:					60%;
+		}
+		
+		#footer-info				{
+			display:				block;
+		}
+		
+		#footer-advert				{
+			width:					70%;
+		}
+		
+	#footer						{
+		height:					76px;
+	}
+	
+		#footer-info				{
+			padding-top:			2px;
+		}
+		
+}
+
+
+@media (min-width: 768px)		{
+	#inner						{
+		top:					2%;
+		left:					5%;
+		width:					90%;
+		height:					96%;
+	}
+	
+	h1	{ font-size: 28px; line-height: 32px }
+	h2	{ font-size: 22px; line-height: 26px; }
+	p	{ font-size: 16px; line-height: 22px; }
+	
+	.email-text,
+	.quote
+	{
+		font-size:				14px;
+	}
+	
+		.navbar-link				{
+			font-size:				16px;
+		}
+	
+		#content-bloglist			{
+			width:					30%;
+		}
+	
+		#content-blog				{
+			width:					50%;
+		}
+		
+			.image-text					{
+				width:					100%;
+				font-size:				9px;
+				line-height:			14px;
+			}
+			
+		
+		#content-items				{
+			display:				block;
+		}
+		
+		#footer-info				{
+			width:					40%;
+			margin-top:				4px;
+		}
+		
+			.footer-info-el				{
+				font-size:				14px;
+			}
+			
+		
+		#footer-advert				{
+			width:					60%;
+		}
+		
+}
+
+
+@media (min-width: 1080px)		{
+	#inner						{
+		left:					7.5%;
+		width:					85%;
+	}
+}
+

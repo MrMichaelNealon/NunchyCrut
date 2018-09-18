@@ -1,0 +1,114 @@
+/**********************************************************
+ * text.css
+ *
+ * M. Nealon, 2018.
+ */
+
+ 
+h1								{
+	display:					inline;
+	width:						auto;
+	
+	margin:						0px 0px 24px 0px;
+	
+	font-size:					24px;
+	font-weight:				bold;
+	
+	color:						#1E90FF;
+	background:					none;
+	
+	text-shadow:				1px 1px 0px #000;
+}
+
+h2								{
+	display:					inline;
+	width:						auto;
+	
+	margin:						12px 0px 12px 0px;
+	
+	font-size:					18px;
+	font-weight:				bold;
+	
+	color:						#1E90FF;
+	background:					none;
+	
+	text-shadow:				1px 1px 0px #000;
+}
+
+p								{
+	display:					inline;
+	width:						auto;
+	
+	margin:						6px 0px 12px 0px;
+	padding-bottom:				12px;
+	
+	font-size:					12px;
+	font-family:				"Sumana", serif;
+	
+	line-height:				16px;
+	
+	color:						#0E205F;
+	background:					none;
+}
+
+p.opening:first-letter			{
+	font-size:					22px;
+	font-weight:				bold;
+	
+	margin-right:				2px;
+}
+
+b								{
+	background:					none;
+}
+
+i								{
+	background:					none;
+}
+
+center							{
+	background:					none;
+}
+
+
+.signature						{
+	color:						#000;
+	font-size:					14px;
+	font-weight:				bold;
+}
+
+.email-text						{
+	color:						#000;
+	
+	margin:						24px 0px;
+	
+	padding:					6px;
+	
+	font-size:					10px;
+	font-weight:				bold;
+	
+	background:					#F0F0FF;
+}
+
+.quote							{
+	margin:						6px 0px 12px 0px;
+	padding-bottom:				12px;
+	
+	padding:					12px;
+	
+	font-size:					12px;
+	font-family:				"Milonga", cursive;
+	font-style:					italic;
+	
+	color:						#000;
+	background:					#F0F0FF;
+}
+
+
+/*
+    font-family: 'Katibeh', cursive;
+
+    font-family: 'Sumana', serif;
+
+    font-family: 'Milonga', cursive;
+*/

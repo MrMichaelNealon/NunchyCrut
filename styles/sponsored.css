@@ -1,0 +1,54 @@
+/**********************************************************
+ * sponsored.css
+ *
+ * M. Nealon, 2018.
+ */
+
+
+.sponsored-item-el				{
+	position:					relative;
+	float:						left;
+	
+	background:					#FAFAFF;
+	
+	width:						48%;
+	height:						auto;
+	
+	margin-bottom:				24px;
+	margin-right:				2%;
+	
+	padding:					6px;
+	
+	box-sizing:					border-box;
+}
+
+	.sponsored-item-link			{
+		cursor:						pointer;
+	
+		width:						100%;
+		height:						auto;
+		
+		padding:					0px 0px 2px 0px;
+		margin:						0px;
+		
+		font-size:					14px;
+		font-weight:				bold;
+		
+		color:						#FF8C00;
+		
+		text-shadow:				1px 1px 0px #000;
+	}
+	
+	.sponsored-item-info			{
+		width:						100%;
+		height:						auto;
+		
+		padding:					0px 0px 4px 0px;
+		margin:						0px;
+		
+		font-size:					10px;
+		
+		line-height:				10px;
+	}
+	
+	

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<meta charset="utf-8">
+		
+		<link href="https://fonts.googleapis.com/css?family=Katibeh|Milonga|Sumana" rel="stylesheet"> 
+		
+		<link rel="Stylesheet" type="text/css" href="styles/common.css">
+		
+		<link rel="Stylesheet" type="text/css" href="styles/text.css">
+		<link rel="Stylesheet" type="text/css" href="styles/images.css">
+		<link rel="Stylesheet" type="text/css" href="styles/sponsored.css">
+		<link rel="Stylesheet" type="text/css" href="styles/blog.css">
+		
+		<link rel="Stylesheet" type="text/css" href="styles/header.css">
+		<link rel="Stylesheet" type="text/css" href="styles/navbar.css">
+		<link rel="Stylesheet" type="text/css" href="styles/content.css">
+		<link rel="Stylesheet" type="text/css" href="styles/footer.css">
+		
+		<link rel="Stylesheet" type="text/css" href="styles/media.css">
+		
+		<title>
+			NunchyCrut Web Design - Est. 1803
+		</title>		
+		
+		<meta content="True" name="HandheldFriendly">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<script src="plugins/jquery-1.11.0.js"></script>	
+		<script src="plugins/jquery-colour.js"></script>
+		
+	<!--	<script src="blogs/objects/objBlogger2016.js"></script> -->
+	<!--	<script src="blogs/objects/objBlogger2017.js"></script> -->
+		<script src="blogs/objects/objBlogger2018.js"></script>
+		
+		<script src="app/parseURL.js"></script>
+		<script src="app/intruAd.js"></script>
+		<script src="app/evenText.js"></script>
+		<script src="app/jsBlogger.js"></script>
+		<script src="app/blogHTML.js"></script>
+		<script src="app/MainController.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<div id="outer">
+			<div id="inner">
+			
+				<div id="header" class="inner-el">
+					<div id="header-title" class="header-title">
+						<div id="header-title-nunchy" class="header-title-left">
+							Nunchy
+						</div>
+						<div id="header-title-crut" class="header-title-right">
+							Crut
+						</div>
+						<div id="header-title-tag" class="header-title-tag">
+							Established 1703
+						</div>
+					</div>
+				</div>
+				
+				<div id="navbar" class="inner-el">
+					<div id="navbar-link-Home" class="navbar-link">
+						Home
+					</div>
+					<div id="navbar-link-Blog" class="navbar-link">
+						Blog
+					</div>
+					<div id="navbar-link-About" class="navbar-link">
+						About
+					</div>
+					<div id="navbar-link-Contact" class="navbar-link">
+						Contact
+					</div>
+				</div>
+				
+				<div id="content" class="inner-el">
+					<div id="content-bloglist" class="inner-el">
+						<div id="sponsored-item-for" class="sponsored-item-el">
+							<div 
+								title="The for loop project" 
+								id="sponsored-item-for-link" 
+								class="sponsored-item-el sponsored-item-link"
+								onclick="window.open('sponsored/The-for-loop-project.html', '_blank');" 
+							>
+								The for loop project
+							</div>
+							<div id="sponsored-item-for-info" class="sponsored-item-el sponsored-item-info">
+								This very interesting project is being spearheaded
+								by the <b>for loop society</b>.
+							</div>
+						</div>
+						<div id="sponsored-item-check" class="sponsored-item-el">
+							<div id="sponsored-item-check-title" class="sponsored-item-el sponsored-item-link">
+								Check dis
+							</div>
+							<div id="sponsored-item-check-info" class="sponsored-item-el sponsored-item-info">
+								Ch-ch-ch-check it aaaawt-aaawt-aaawt! This is just 
+								a text so it is.
+							</div>
+						</div>
+					</div>
+					<div id="content-blog" class="inner-el">
+						Blog
+					</div>
+					<div id="content-items" class="inner-el">
+					</div>
+				</div>
+				
+				<div id="footer" class="inner-el">
+					<div id="footer-info" class="inner-el">
+						<div id="footer-info-inner">
+						<div id="footer-info-nunchy" class="footer-info-el">
+							<b>NunchyCrut</b> Technologies
+						</div>
+						<div id="footer-info-simon" class="footer-info-el">
+							CEO: Prof <b>Simon P. Thinkwell</b>
+						</div>
+						<div id="footer-info-copyright" class="footer-info-el">
+							&copy; 2018, all rights reserved
+						</div>
+						</div>
+					</div>
+					<div id="footer-advert" class="inner-el">
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		
+		<script>
+		
+			$(document).ready(function() {
+				var ctr = new MainController();
+			
+				evenText("header-title-nunchy", "title-nunchy-", "header-title-el header-nunchy-el", "Nunchy");
+				evenText("header-title-crut", "title-crut-", "header-title-el header-crut-el", "Crut");
+				evenText("header-title-tag", "title-tag-", "header-title-el header-tag-el", "Established 1703");
+			});
+		
+		</script>
+	
+	</body>
+
+</html>
+

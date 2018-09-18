@@ -1,0 +1,36 @@
+/**********************************************************
+ * images.css
+ *
+ * M. Nealon, 2018.
+ */
+
+
+.image-regular					{
+	position:					relative;
+	float:						left;
+	
+	display:					inline;
+	
+	margin:						6px 12px 0px 12px;
+	
+	width:						40%;
+	height:						auto;
+	
+	box-sizing:					border-box;
+	
+	background:					none;
+}
+
+.image-text						{
+	margin:						-2px 0px 0px 0px;
+	
+	width:						100%;
+	text-align:					center;
+	
+	font-size:					8px;
+	
+	color:						#000;
+	background:					none;
+	
+	line-height:				12px;
+}
